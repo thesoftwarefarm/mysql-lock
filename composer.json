@@ -40,7 +40,7 @@
                 "TsfCorp\\MysqlLock\\MysqlLockServiceProvider"
             ],
             "aliases": {
-                "Lister": "TsfCorp\\MysqlLock\\Facades\\MysqlLock"
+                "MysqlLock": "TsfCorp\\MysqlLock\\Facades\\MysqlLock"
             }
         }
     }
