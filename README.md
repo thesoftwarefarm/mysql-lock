@@ -11,9 +11,9 @@ After updating composer, the service provider will automatically be registered a
 
 # Usage Instructions
 
-`MysqLock` library can be used when you don't want two processes to overlap
+`MysqlLock` library can be used when you don't want two processes to overlap
 ```php
-if ( ! MysqLock::get($lock_name))
+if ( ! MysqlLock::get($lock_name))
 {
     // a lock already exists. Please try again later
 }
@@ -23,7 +23,7 @@ if ( ! MysqLock::get($lock_name))
 Make sure that at the end of your script to always release the lock:
 
 ```php
-MysqLock::release($lock_name);
+MysqlLock::release($lock_name);
 ```
 
 
